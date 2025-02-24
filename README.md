@@ -6,13 +6,13 @@ This website provides an interactive platform for showcasing event details, sche
 ---
 
 ## 📌 **Features**
-✅ Modern UI with responsive design (Mobile & Desktop Friendly)  
+✅ Modern UI with responsive design
 ✅ Interactive **Schedule Page** with **Day & Track Filters**  
 ✅ Speaker Profiles & Event Highlights  
-✅ Sponsorship Tiers (Gold, Silver, Bronze)  
+✅ Sponsorship Tiers 
 ✅ Google Maps Integration for Venue Details  
 ✅ Navbar with smooth navigation  
-✅ Dark & Light Mode Support _(if implemented)_  
+✅ Dark & Light Mode Support 
 ✅ SEO & Performance Optimized  
 
 ---
@@ -21,7 +21,7 @@ This website provides an interactive platform for showcasing event details, sche
 - **Frontend:** SvelteKit, Sveltestrap (Bootstrap for Svelte)
 - **Styling:** Tailwind CSS
 - **Backend (if applicable):** Node.js, Express
-- **API & Integrations:** Google Maps API, OpenAI API (if chatbot is included)
+- **API & Integrations:** Google Maps API
 - **Deployment:** Vercel / Netlify  
 
 ---
