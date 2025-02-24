@@ -1,38 +1,60 @@
-# sv
+# 🏆 Fictional Tech Conference 2025
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+🚀 **Fictional Tech Conference** is a modern, fully responsive website built with **SvelteKit** and **Sveltestrap**.  
+This website provides an interactive platform for showcasing event details, schedules, speakers, sponsors, and venue information.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 📷 **Live Demo**
+👉 [Demo Link](https://your-deployed-link.vercel.app) _(Add your deployment link here)_
 
+---
+
+## 📌 **Features**
+✅ Modern UI with responsive design (Mobile & Desktop Friendly)  
+✅ Interactive **Schedule Page** with **Day & Track Filters**  
+✅ Speaker Profiles & Event Highlights  
+✅ Sponsorship Tiers (Gold, Silver, Bronze)  
+✅ Google Maps Integration for Venue Details  
+✅ Navbar with smooth navigation  
+✅ Dark & Light Mode Support _(if implemented)_  
+✅ SEO & Performance Optimized  
+
+---
+
+## 🛠 **Tech Stack**
+- **Frontend:** SvelteKit, Sveltestrap (Bootstrap for Svelte)
+- **Styling:** Tailwind CSS
+- **Backend (if applicable):** Node.js, Express
+- **API & Integrations:** Google Maps API, OpenAI API (if chatbot is included)
+- **Deployment:** Vercel / Netlify  
+
+---
+
+## 🚀 **Getting Started**
+### 1️⃣ **Clone the Repository**
 ```bash
-# create a new project in the current directory
-npx sv create
+git clone https://github.com/Nishu-06/Fictional-tech-conference.git
+cd Fictional-tech-conference
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+/src
+ ├── routes
+ │    ├── +layout.svelte  # Main Layout
+ │    ├── +page.svelte    # Home Page
+ │    ├── about
+ │    │    ├── +page.svelte  # About Page
+ │    ├── schedule
+ │    │    ├── +page.svelte  # Schedule Page
+ │    ├── sponsors
+ │    │    ├── +page.svelte  # Sponsors Page
+ │    ├── contact
+ │    │    ├── +page.svelte  # Contact Page
+ │    ├── speakers
+ │    │    ├── +page.svelte  # Speakers Page
+ ├── components
+ │    ├── Navbar.svelte   # Navigation Bar
+ │    ├── Footer.svelte   # Footer
+ │    ├── SpeakerCard.svelte  # Speaker Component
+ │    ├── SponsorCard.svelte  # Sponsor Component
+ ├── styles
+ │    ├── global.css      # Global Styles
