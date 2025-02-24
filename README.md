@@ -59,5 +59,25 @@ cd Fictional-tech-conference
  ├── styles
  │    ├── global.css      # Global Styles
 
+### 🏠 Home Page
+![Home Page](home.png)
+
+### 📅 Schedule Section
+![Schedule](schedule.png)
+
+### 📅 Sponsors Section
+![Sponsors](sponsors.png)
+
+
+### 🎤 Speakers Section
+![Speakers](speakers.png)
+
+### 🎟️ Information Page
+![About](about.png)
+
+### 📍 Contact Page
+![Contact](contact.png)
+
+
 
 
