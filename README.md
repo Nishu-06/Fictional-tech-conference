@@ -1,12 +1,7 @@
 # 🏆 Fictional Tech Conference 2025
 
 🚀 **Fictional Tech Conference** is a modern, fully responsive website built with **SvelteKit** and **Sveltestrap**.  
-This website provides an interactive platform for showcasing event details, schedules, speakers, sponsors, and venue information.
-
----
-
-## 📷 **Live Demo**
-👉 [Demo Link](https://your-deployed-link.vercel.app) _(Add your deployment link here)_
+This website provides an interactive platform for showcasing event details, schedules, speakers, sponsors, and venue information._
 
 ---
 
@@ -58,4 +53,3 @@ cd Fictional-tech-conference
  │    ├── SponsorCard.svelte  # Sponsor Component
  ├── styles
  │    ├── global.css      # Global Styles
-
